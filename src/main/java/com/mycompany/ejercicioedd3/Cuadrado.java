@@ -31,8 +31,5 @@ public class Cuadrado {
         this.altura = altura;
     }
     
-    public float calcularArea(){
-        return (base*altura);
-    }
     
 }

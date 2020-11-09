@@ -20,11 +20,13 @@ public class Cuadrado {
     public Cuadrado() {
     }
     
-
     public float getBase() {
         return base;
     }
-
+    
+    /**
+     * @param base Permite cambiar la base del triángulo.
+     */
     public void setBase(float base) {
         this.base = base;
     }

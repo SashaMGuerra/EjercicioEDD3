@@ -20,12 +20,12 @@ public class Main {
     public static void main(String[] args) {
         Triangulo triangulo1 = new Triangulo();
         System.out.println("¿Cuál es la altura del triángulo?");
-        Scanner scanner = new Scanner(System.in);
-        triangulo1.setAltura(scanner.nextFloat());
+        Scanner teclado = new Scanner(System.in);
+        triangulo1.setAltura(teclado.nextFloat());
 
         System.out.println("¿Cuál es la base del triángulo?");
-        scanner = new Scanner(System.in);
-        triangulo1.setBase(scanner.nextFloat());
+        teclado = new Scanner(System.in);
+        triangulo1.setBase(teclado.nextFloat());
 
         float area = triangulo1.calcularArea();
         System.out.println("El área del triángulo es " + area);
@@ -37,12 +37,18 @@ public class Main {
         System.out.println("El área del triángulo fijado es: " + trianguloFijo.calcularArea());
         
         // Cuadrado;
-        Cuadrado cuadrado1 =new Cuadrado();
+        Cuadrado cuadrado1=new Cuadrado();
         
-        System.out.println("¿Cuál es la altura del cuadrado?");
-        Scanner teclado = new Scanner(System.in);
+        System.out.println("¿Cuál es la base del cuadrado?");
+        teclado = new Scanner(System.in);
         cuadrado1.setBase(teclado.nextFloat());
         
+        System.out.println("¿Cuál es la altura del cuadrado?");
+        teclado = new Scanner(System.in);
+        cuadrado1.setAltura(teclado.nextFloat());
+        
+        float areaCuadrado = cuadrado1.calcularArea();
+        System.out.println("El área del cuadrado es: "+areaCuadrado);
     }
 
 }

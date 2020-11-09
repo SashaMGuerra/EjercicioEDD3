@@ -6,8 +6,8 @@
 package com.mycompany.ejercicioedd3;
 
 /**
- *
- * @author daw1
+ * Contiene los datos de un cuadrado y permite calcular su área.
+ * @author Sasha
  */
 public class Cuadrado {
     private float base, altura;

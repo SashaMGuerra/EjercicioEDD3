@@ -25,7 +25,6 @@ public class Main {
 
         System.out.println("¿Cuál es la base del triángulo?");
         scanner = new Scanner(System.in);
-
         triangulo1.setBase(scanner.nextFloat());
 
         float area = triangulo1.calcularArea();

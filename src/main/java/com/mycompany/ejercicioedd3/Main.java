@@ -6,7 +6,7 @@
 package com.mycompany.ejercicioedd3;
 
 import java.util.Scanner;
-
+// Este comentario es una prueba.
 /**
  * Calcula el área de un triángulo.
  *

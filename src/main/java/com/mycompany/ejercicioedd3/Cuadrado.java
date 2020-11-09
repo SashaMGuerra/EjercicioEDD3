@@ -12,8 +12,14 @@ package com.mycompany.ejercicioedd3;
 public class Cuadrado {
     private float base, altura;
 
+    public Cuadrado(float base, float altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
     public Cuadrado() {
     }
+    
 
     public float getBase() {
         return base;
@@ -32,7 +38,10 @@ public class Cuadrado {
     }
     
     public float calcularArea(){
-        return (base*altura);
+        return altura*base;
+                
     }
+    
+    
     
 }

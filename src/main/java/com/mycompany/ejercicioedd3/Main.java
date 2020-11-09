@@ -35,7 +35,14 @@ public class Main {
 
         Triangulo trianguloFijo = new Triangulo(alturaFija, baseFija);
         System.out.println("El área del triángulo fijado es: " + trianguloFijo.calcularArea());
-
+        
+        // Cuadrado;
+        Cuadrado cuadrado1 =new Cuadrado();
+        
+        System.out.println("¿Cuál es la altura del cuadrado?");
+        Scanner teclado = new Scanner(System.in);
+        cuadrado1.setBase(teclado.nextFloat());
+        
     }
 
 }
